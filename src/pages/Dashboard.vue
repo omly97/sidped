@@ -19,7 +19,7 @@
                 <v-tabs-slider></v-tabs-slider>
                 <v-tab href="#tab-1">F1</v-tab>
                 <v-tab href="#tab-2">F2</v-tab>
-                <v-tab href="#tab-3">F4</v-tab>
+                <v-tab href="#tab-4">F4</v-tab>
             </v-tabs>
 
             <v-tabs-items v-model="tab" class="transparent">
