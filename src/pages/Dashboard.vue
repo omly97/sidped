@@ -19,7 +19,7 @@
                 <v-tabs-slider></v-tabs-slider>
                 <v-tab href="#tab-1">F1</v-tab>
                 <v-tab href="#tab-2">F2</v-tab>
-                <v-tab href="#tab-3">F3</v-tab>
+                <v-tab href="#tab-3">F4</v-tab>
             </v-tabs>
 
             <v-tabs-items v-model="tab" class="transparent">
@@ -29,8 +29,8 @@
                 <v-tab-item value="tab-2">
                     <finance-result-year :financekey="'f2'"></finance-result-year>
                 </v-tab-item>
-                <v-tab-item value="tab-3">
-                    <finance-result-year :financekey="'f3'"></finance-result-year>
+                <v-tab-item value="tab-4">
+                    <finance-result-year :financekey="'f4'"></finance-result-year>
                 </v-tab-item>
             </v-tabs-items>
         </template>
