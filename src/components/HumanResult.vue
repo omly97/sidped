@@ -2,16 +2,16 @@
     <v-row>
         <!-- Loading data -->
         <template  v-if="isLoading">
-            <v-col cols="12" xl="3" lg="4" md="4">
-                <v-skeleton-loader type="card" height="200"></v-skeleton-loader>
+            <v-col cols="12" xl="6" lg="6" md="6">
+                <v-skeleton-loader type="table"></v-skeleton-loader>
             </v-col>
         </template>
 
         <!-- Data loaded -->
         <template  v-if="!isLoading">
-            <v-col cols="12" xl="3" lg="5" md="5">
-                <v-card flat outlined>
-                    <v-simple-table>
+            <v-col cols="12" xl="6" lg="6" md="6">
+                <v-card flat outlined color="transparent">
+                    <v-simple-table class="transparent">
                         <template v-slot:default>
                             <thead>
                                 <tr>

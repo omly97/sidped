@@ -2,7 +2,7 @@
     <v-app>
         <!-- Toolbar -->
         <v-app-bar app dark>
-            <v-toolbar-title>Doctorat</v-toolbar-title>
+            <v-toolbar-title>SIDPED</v-toolbar-title>
 
             <v-spacer></v-spacer>
 
